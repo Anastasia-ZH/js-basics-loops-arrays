@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HW 3</title>
+</head>
+
+<body>
+    <!-- ЗАДАНИЕ 1: С помощью цикла while вывести все простые числа в промежутке от 0 до 100. -->
+
+    <!-- <script>
+        let i = 1
+        tag: while (i++ < 100) {
+            let x = 2
+            while (x++ < i) {
+                if ((i % (x - 1)) === 0) {
+                    continue tag
+                }
+            }
+            console.log(i)
+        }
+    </script> -->
+
+    <!-- ЗАДАНИЕ 2: С этого урока начинаем работать с функционалом интернет-магазина. 
+            Предположим, есть сущность корзины. Нужно реализовать функционал подсчета стоимости корзины в зависимости от находящихся в ней товаров. 
+            Товары в корзине хранятся в массиве. Задачи:
+            a) Организовать такой массив для хранения товаров в корзине;
+            b) Организовать функцию countBasketPrice, которая будет считать стоимость корзины. -->
+
+    <!-- <script>
+        let cart = [
+            ['jeans', 1900, 3],
+            ['t-shirt', 500, 6],
+            ['jacket', 2500, 2],
+        ];
+        let result = 0;
+        for (let i of cart) {
+
+            result += i[1] * i[2];
+
+        }
+        console.log(result);
+    </script> -->
+
+    <!-- ЗАДАНИЕ 3: Вывести с помощью цикла for числа от 0 до 9, не используя тело цикла.-->
+
+    <!-- <script>
+        for (digit = 0; digit < 10; console.log(digit++)) { }
+    </script> -->
+
+    <!-- ЗАДАНИЕ 4: Нарисовать пирамиду с помощью console.log, как показано на рисунке, только у вашей пирамиды должно быть 20 рядов.-->
+    <script>
+        let cross = " ", counter = 0
+
+        while (counter < 20) {
+            cross += 'x'  //cross = cross + 'x'
+            console.log(cross)
+            counter++
+        }
+    </script>
+
+</body>
+
+</html>
